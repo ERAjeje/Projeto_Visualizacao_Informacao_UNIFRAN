@@ -31,3 +31,23 @@ A úlima visualização foi realizada através do agrupamento das notícias por 
 Obs.: essa operação só precisa ser feita na primeira vez que o script for executado. As linhas descomentadas podem ser comentadas novamente.
 
 2 - Após esse passo pode-se rodar em sequencia todas as células do arquivo *.ipynb* ou executar o arquivo *.py*. Serão geradas 3 visualizações, conforme descrito.
+
+### Visualizações Disponíveis
+
+#### WordCloud
+
+É uma núvem de palavras que mostra facilmente a importância de um termo em relação aos outros baseado na sua repetição
+
+![wordcloud](./assets/graph/wordcloud.png)
+
+#### Gráfico de Barras
+
+É uma forma de comparar valores de uma mesma entrada. Nesse exemplo está comparando o número de notícias verdadeiras e falsas que apresentam um dos 16 termos mais importantes segundo a núvem de palavras.
+
+![bars](./assets/graph/bars.png)
+
+#### Treemap
+
+É uma forma de visualização que dispõe os dados analisados de forma hierarquica entre si.
+
+![treemap](./assets/graph/treemap.png)
